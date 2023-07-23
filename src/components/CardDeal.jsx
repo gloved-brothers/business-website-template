@@ -5,7 +5,7 @@ import styles, { layout } from "../style";
 
 const CardDeal = () => {
   return (
-    <section className={layout.section}>
+    <section className={layout.section} id="services">
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           Find a better software solution <br className="sm:block hidden" />
