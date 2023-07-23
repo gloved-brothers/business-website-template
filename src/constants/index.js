@@ -1,18 +1,18 @@
-import { 
-  people01, 
-  people02, 
-  people03, 
-  facebook, 
-  instagram, 
-  linkedin, 
-  twitter, 
-  airbnb, 
-  binance, 
-  coinbase, 
-  dropbox, 
-  send, 
-  shield, 
-  star
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
+  star,
 } from "../assets";
 
 export const navLinks = [
@@ -21,12 +21,16 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "aboutUs",
+    title: "About Us",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "services",
+    title: "Services",
+  },
+  {
+    id: "contactUs",
+    title: "Contact Us",
   },
   {
     id: "clients",
@@ -38,23 +42,30 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Intelity",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "As Intelity Tech Software Company, we are a technology firm providing forward-looking solutions for the future. With our innovative approaches and genuine communication principles, we develop unique software tailored to meet our customers' needs.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Team & Solutions",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Our team specializes in artificial intelligence solutions, machine learning, Android and iOS mobile applications. We also possess strong expertise in web and desktop applications. In every project, we aim to understand our customers' requirements and deliver customized solutions through effective communication.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Teach Tech",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Moreover, we take pride in teaching software development to those who aspire to enter the software world, offering one-on-one or classroom training. We believe in the power of progress and take joy in supporting young talents on this journey.",
+  },
+  {
+    id: "feature-4",
+    icon: send,
+    title: "Our Goal",
+    content:
+      "Our goal is to use technology to create solutions that simplify people's lives, enhance productivity, and transform daily tasks. Customer satisfaction and trust are always our top priorities.",
   },
 ];
 
@@ -62,25 +73,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "Alanında en kaliteli hizmeti sunan yazılım şirketi",
+    name: "Mübarek Demir",
+    title: "Leader",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "İşlerinde titizlikle çalışan bir ekip ile çalışmak güzeldi teşekkürler Intelity Tech",
+    name: "Muhammed Özçelik",
+    title: "Founder",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "Firma olarak taleplerimize kısa sürece cvp döndüler. İsmail bey anlayışlı güler yüzlülüğü ve göstermiş olduğu samimiyeti hiç unutulmaz.",
+    name: "Selçuk",
+    title: "Leader",
     img: people03,
   },
 ];
@@ -109,23 +120,23 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://www.hoobank.com/content/",
+        link: "http://intelitytech.com/content/",
       },
       {
         name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "http://intelitytech.com/how-it-works/",
       },
       {
         name: "Create",
-        link: "https://www.hoobank.com/create/",
+        link: "http://intelitytech.com/create/",
       },
       {
         name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        link: "http://intelitytech.com/explore/",
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "http://intelitytech.com/terms-and-services/",
       },
     ],
   },
@@ -134,23 +145,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: "http://intelitytech.com/help-center/",
       },
       {
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: "http://intelitytech.com/partners/",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "http://intelitytech.com/suggestions/",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "http://intelitytech.com/blog/",
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "http://intelitytech.com/newsletters/",
       },
     ],
   },
@@ -159,11 +170,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "http://intelitytech.com/our-partner/",
       },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "http://intelitytech.com/become-a-partner/",
       },
     ],
   },

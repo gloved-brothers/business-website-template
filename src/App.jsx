@@ -12,11 +12,12 @@ import {
   Testimonials 
 } from './components'
 import styles from './style'
+import About from './components/About'
 
 const App = () => {
   return (
-    <div className='bg-primary w-full overflow-hidden'>
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+    <div className='bg-primary w-full '>
+      <div className={`${styles.paddingX} ${styles.flexCenter} sticky top-0 z-20 bg-gray-900`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar/>
         </div>
@@ -28,12 +29,12 @@ const App = () => {
       </div>
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Stats/>
-          <Business/>
-          <Billing/>
+          {/* <Stats/> */}
+          <About/>
+          {/* <Billing/> */}
           <CardDeal/>
           <Testimonials/>
-          <Clients/>
+          {/* <Clients/> */}
           <CTA/>
           <Footer/>     
         </div>

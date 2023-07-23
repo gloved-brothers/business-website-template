@@ -2,11 +2,13 @@ import airbnb from "./airbnb.png";
 import bill from "./bill.png";
 import binance from "./binance.png";
 import card from "./card.png";
+import ourWork from "./our-work.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
+import robot2 from "./robot2.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -29,11 +31,13 @@ export {
   bill,
   binance,
   card,
+  ourWork,
   coinbase,
   dropbox,
   logo,
   quotes,
   robot,
+  robot2,
   send,
   shield,
   star,

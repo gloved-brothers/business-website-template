@@ -1,30 +1,28 @@
-import React from 'react'
-import { card } from '../assets'
-import Button from './Button'
-import styles, { layout } from '../style'
+import React from "react";
+import { card, ourWork } from "../assets";
+import Button from "./Button";
+import styles, { layout } from "../style";
 
 const CardDeal = () => {
   return (
     <section className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>Find a better card deal <br className='sm:block hidden'/>in few easy steps.</h2>
+        <h2 className={styles.heading2}>
+          Find a better software solution <br className="sm:block hidden" />
+          in few easy steps.
+        </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Arcu tortor,
-          purus in mattis at sed integer faucibus.
-          Aliquet quis aliquet eget mauris tortor.ç 
-          Aliquet ultrices ac, ametau.
+          Artificial intelligence solutions, Machine learning, Android and iOS
+          mobile applications. We also possess strong expertise in web and
+          desktop applications.
         </p>
-        <Button styles='mt-10'/>
+        <Button styles="mt-10" />
       </div>
       <div className={layout.sectionImg}>
-        <img
-          src={card}
-          alt='card'
-          className='w-[100%] h-[100%]'
-        />
+        <img src={ourWork} alt="card" className="w-[100%] h-[100%]" />
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default CardDeal
+export default CardDeal;
