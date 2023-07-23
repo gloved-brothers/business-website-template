@@ -7,7 +7,7 @@ const GetStarted = () => {
     e.preventDefault();
 
     const phoneNumber = "+905457396437";
-    let url = `https://web.whatsapp.com/send?phone=${phoneNumber}`;
+    let url = `https://api.whatsapp.com/send?phone=${phoneNumber}`;
 
     const message =
       "Hello Intelity Tech! I have a question/issue and I need your help. Can you please message me when you're available? Thank you!";
